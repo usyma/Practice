@@ -1,5 +1,6 @@
 program svd
-
+! Calculates the SVD of an input matrix a
+! WIP
 integer:: rows, cols
 real,allocatable, dimension(:,:) :: a, at, ata, aat, u, s, vt
 print *, 'Enter the number of rows and number of columns of your matrix:'
